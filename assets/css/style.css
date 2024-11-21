@@ -5,6 +5,11 @@
     color: #FFF;
 }
 
+body {
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+
 header {
     height: 100px;
     background-color: #000;
@@ -36,3 +41,35 @@ header {
     display: flex;
     justify-content: flex-end;
 }
+
+.menu ul,
+.menu li {
+    list-style: none;
+}
+
+.menu ul {
+    display: flex;
+}
+
+.menu li a {
+    color: #FFF;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 600;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 100px;
+    border-bottom: 5px solid #000;
+    display: flex;
+    align-items: center;
+   
+
+}
+
+.menu li a:hover,
+.menu .active {
+    border-bottom: 5px solid #B28756;
+}
+
+
+
